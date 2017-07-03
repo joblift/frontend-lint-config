@@ -1,0 +1,12 @@
+{
+  "name": "joblift-frontend-lint-config",
+  "version": "0.0.1",
+  "description": "Joblift frontend lint configs",
+  "main": "index.js",
+  "repository": "git@bitbucket.org:everyjob/joblift-frontend-lint-config.git",
+  "author": "devs@Joblift GmbH",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^2.0.0-rc.5"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "stylelint-config-joblift",
+  "version": "0.0.1",
+  "description": "Joblift stylelint config",
+  "main": "index.js",
+  "repository": "git@bitbucket.org:everyjob/joblift-frontend-lint-config.git",
+  "author": "devs@Joblift GmbH",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://nexus.jol.pm/repository/npm-hosted/"
+  },
+  "dependencies": {
+    "stylelint": "^7.12.0",
+    "stylelint-config-standard": "^16.0.0",
+    "stylelint-scss": "^1.4.4"
+  }
+}

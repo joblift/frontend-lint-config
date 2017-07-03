@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-joblift",
+  "version": "0.0.1",
+  "description": "Joblift eslint config",
+  "main": "index.js",
+  "repository": "git@bitbucket.org:everyjob/joblift-frontend-lint-config.git",
+  "author": "devs@Joblift GmbH",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://nexus.jol.pm/repository/npm-hosted/"
+  },
+  "dependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.1.1",
+    "eslint-plugin-flowtype": "^2.34.1",
+    "eslint-plugin-import": "^2.6.1",
+    "eslint-plugin-prettier": "^2.1.2",
+    "eslint-plugin-react": "^7.1.0",
+    "prettier": "^1.5.2"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint"
+  }
+}
