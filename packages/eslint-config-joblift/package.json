@@ -9,7 +9,7 @@
   "publishConfig": {
     "registry": "https://nexus.jol.pm/repository/npm-hosted/"
   },
-  "dependencies": {
+  "peerDependencies": {
     "babel-eslint": "^7.2.3",
     "eslint": "^4.1.1",
     "eslint-plugin-flowtype": "^2.34.1",
