@@ -9,5 +9,7 @@ module.exports = {
         indentation: 4,
         'function-name-case': null,
         'number-leading-zero': null,
+        'declaration-block-no-redundant-longhand-properties': null,
+        'shorthand-property-no-redundant-values': null
     },
 }

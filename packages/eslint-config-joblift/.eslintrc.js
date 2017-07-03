@@ -1,5 +1,5 @@
 module.exports = {
-  extends: './eslint/index.js',
+  extends: './index.js',
   env: {
     node: true,
   },
