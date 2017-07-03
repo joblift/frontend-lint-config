@@ -10,6 +10,6 @@ module.exports = {
         'function-name-case': null,
         'number-leading-zero': null,
         'declaration-block-no-redundant-longhand-properties': null,
-        'shorthand-property-no-redundant-values': null
+        'shorthand-property-no-redundant-values': null,
     },
 }
