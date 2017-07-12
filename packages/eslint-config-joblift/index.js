@@ -8,7 +8,7 @@ module.exports = {
     rules: {
         'prettier/prettier': [
             'error',
-            { singleQuote: true, tabWidth: 4, printWidth: 120, semi: false, trailingComma: 'es5' },
+            { singleQuote: true, tabWidth: 4, printWidth: 120, semi: true, trailingComma: 'es5' },
         ],
         'flowtype/space-after-type-colon': 'off',
         'accessor-pairs': 'error',
@@ -213,7 +213,7 @@ module.exports = {
         'require-await': 'error',
         'require-jsdoc': 'off',
         'rest-spread-spacing': 'error',
-        semi: ['error', 'never'],
+        semi: 'off',
         'semi-spacing': 'error',
         'sort-imports': 'off',
         'sort-keys': 'off',
@@ -235,4 +235,4 @@ module.exports = {
         'yield-star-spacing': 'error',
         yoda: 'error',
     },
-}
+};
