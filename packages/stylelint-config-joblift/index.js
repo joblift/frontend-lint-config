@@ -6,7 +6,7 @@ module.exports = {
         'declaration-property-value-blacklist': {
             display: ['grid'],
         },
-        indentation: 4,
+        indentation: null,
         'function-name-case': null,
         'number-leading-zero': null,
         'declaration-block-no-redundant-longhand-properties': null,
