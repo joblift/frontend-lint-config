@@ -10,6 +10,7 @@ module.exports = {
             'error',
             { singleQuote: true, tabWidth: 4, printWidth: 120, semi: true, trailingComma: 'es5' },
         ],
+        'react/prop-types': 'off',
         'flowtype/space-after-type-colon': 'off',
         'accessor-pairs': 'error',
         'array-bracket-spacing': 'error',
