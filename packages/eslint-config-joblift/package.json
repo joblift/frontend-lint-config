@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-joblift",
-  "version": "1.0.6",
+  "version": "2.0.0",
   "description": "Joblift eslint config",
   "main": "index.js",
   "repository": "git@bitbucket.org:everyjob/joblift-frontend-lint-config.git",
