@@ -4,8 +4,13 @@ module.exports = {
     parserOptions: {
         sourceType: 'module',
     },
-    plugins: ['react', 'import', 'flowtype', 'prettier'],
-    rules: {
+    plugins: ['react', 'import', 'flowtype', 'prettier', 'sort-imports-es6-autofix'],
+      rules: {
+        'sort-imports-es6-autofix/sort-imports-es6': [2, {
+          ignoreCase: true,
+          ignoreMemberSort: false,
+          memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
+        }],
         'prettier/prettier': [
             'error',
             { singleQuote: true, tabWidth: 4, printWidth: 120, semi: true, trailingComma: 'es5' },
