@@ -54,7 +54,7 @@ module.exports = {
         'dot-location': 'off',
         'dot-notation': 'error',
         'eol-last': 'error',
-        eqeqeq: 'error',
+        eqeqeq: ['error', 'smart'],
         'func-call-spacing': 'error',
         'func-name-matching': 'off',
         'func-names': 'error',
@@ -117,7 +117,7 @@ module.exports = {
         'no-duplicate-imports': 'off', // "import type" is falsly considered duplicate for normal "import"
         'no-else-return': 'error',
         'no-empty-function': 'off',
-        'no-eq-null': 'error',
+        'no-eq-null': 'off',
         'no-eval': 'error',
         'no-extend-native': 'error',
         'no-extra-bind': 'error',
