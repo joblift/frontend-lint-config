@@ -17,6 +17,7 @@ module.exports = {
         ],
         'react/prop-types': 'off',
         'flowtype/space-after-type-colon': 'off',
+        'flowtype/generic-spacing': 'off',
         'accessor-pairs': 'error',
         'array-bracket-spacing': 'error',
         'array-callback-return': 'error',
