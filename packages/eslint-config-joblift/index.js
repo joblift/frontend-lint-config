@@ -1,10 +1,10 @@
 module.exports = {
-    extends: ['eslint:recommended', 'plugin:react/recommended', 'plugin:flowtype/recommended'],
+    extends: ['eslint:recommended', 'plugin:react/recommended', 'plugin:flowtype/recommended', 'plugin:jest/recommended'],
     parser: 'babel-eslint',
     parserOptions: {
         sourceType: 'module',
     },
-    plugins: ['react', 'import', 'flowtype', 'prettier', 'sort-imports-es6-autofix'],
+    plugins: ['react', 'import', 'flowtype', 'prettier', 'sort-imports-es6-autofix', 'jest'],
       rules: {
         'sort-imports-es6-autofix/sort-imports-es6': [2, {
           ignoreCase: true,
