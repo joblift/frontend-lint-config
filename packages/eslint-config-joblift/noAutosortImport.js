@@ -1,10 +1,10 @@
 module.exports = {
-    extends: ['eslint:recommended', 'plugin:react/recommended', 'plugin:flowtype/recommended'],
+    extends: ['eslint:recommended', 'plugin:react/recommended', 'plugin:flowtype/recommended', 'plugin:jest/recommended'],
     parser: 'babel-eslint',
     parserOptions: {
         sourceType: 'module',
     },
-    plugins: ['react', 'import', 'flowtype', 'prettier'],
+    plugins: ['react', 'import', 'flowtype', 'prettier', 'jest'],
       rules: {
         'prettier/prettier': [
             'error',
