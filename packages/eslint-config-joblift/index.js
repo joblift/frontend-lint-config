@@ -5,4 +5,4 @@ base.rules['prettier/prettier'] = [
     { singleQuote: true, tabWidth: 4, printWidth: 120, semi: true, trailingComma: 'es5' },
 ];
 
-module.export = base;
+module.exports = base;
