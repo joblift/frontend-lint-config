@@ -9,11 +9,8 @@
   "peerDependencies": {
     "babel-eslint": "^8.0.0",
     "eslint": "^4.1.1",
-    "eslint-plugin-flowtype": "^2.34.1",
     "eslint-plugin-import": "^2.6.1",
-    "eslint-plugin-prettier": "^2.1.2",
-    "eslint-plugin-react": "^7.1.0",
-    "eslint-plugin-sort-imports-es6-autofix": "^0.1.1",
+    "eslint-plugin-sort-imports-es6-autofix": "^0.2.0",
     "prettier": "^1.5.2"
   },
   "scripts": {
@@ -21,6 +18,5 @@
     "test": "npm run lint"
   },
   "dependencies": {
-    "eslint-plugin-jest": "^21.3.2"
   }
 }
