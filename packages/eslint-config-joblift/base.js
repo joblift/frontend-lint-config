@@ -1,19 +1,16 @@
 module.exports = {
-    extends: ['eslint:recommended', 'plugin:react/recommended', 'plugin:flowtype/recommended', 'plugin:jest/recommended'],
+    extends: ['eslint:recommended'],
     parser: 'babel-eslint',
     parserOptions: {
         sourceType: 'module',
     },
-    plugins: ['react', 'import', 'flowtype', 'prettier', 'sort-imports-es6-autofix', 'jest'],
+    plugins: ['import', 'prettier', 'sort-imports-es6-autofix'],
       rules: {
         'sort-imports-es6-autofix/sort-imports-es6': [2, {
           ignoreCase: true,
           ignoreMemberSort: false,
           memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
         }],
-        'react/prop-types': 'off',
-        'flowtype/space-after-type-colon': 'off',
-        'flowtype/generic-spacing': 'off',
         'accessor-pairs': 'error',
         'array-bracket-spacing': 'error',
         'array-callback-return': 'error',
