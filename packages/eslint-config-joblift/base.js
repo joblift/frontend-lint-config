@@ -4,7 +4,7 @@ module.exports = {
     parserOptions: {
         sourceType: 'module',
     },
-    plugins: ['import', 'prettier', 'sort-imports-es6-autofix'],
+    plugins: ['import', 'sort-imports-es6-autofix'],
       rules: {
         'sort-imports-es6-autofix/sort-imports-es6': [2, {
           ignoreCase: true,
