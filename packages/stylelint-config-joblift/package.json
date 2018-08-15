@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-joblift",
-  "version": "1.3.2",
+  "version": "3.0.0",
   "description": "Joblift stylelint config",
   "main": "index.js",
   "repository": "git@bitbucket.org:everyjob/joblift-frontend-lint-config.git",
