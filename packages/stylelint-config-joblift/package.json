@@ -3,7 +3,7 @@
   "version": "3.0.0",
   "description": "Joblift stylelint config",
   "main": "index.js",
-  "repository": "git@bitbucket.org:everyjob/joblift-frontend-lint-config.git",
+  "repository": "https://github.com/joblift/frontend-lint-config.git",
   "author": "devs@Joblift GmbH",
   "license": "MIT",
   "peerDependencies": {
