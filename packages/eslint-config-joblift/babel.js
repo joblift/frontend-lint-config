@@ -1,7 +1,7 @@
 module.exports = {
   plugins: ['babel'],
   rules: {
-    'babel/new-cap': 'error',
+    'babel/new-cap': 'off',
     'babel/no-invalid-this': 'error',
     'babel/object-curly-spacing': ['error', 'always'],
     'babel/quotes': 'off',
