@@ -4,8 +4,9 @@ module.exports = {
   parserOptions: {
     sourceType: 'module'
   },
-  plugins: ['import', 'sort-imports-es6-autofix'],
+  plugins: ['import', 'sort-imports-es6-autofix', 'prettier'],
   rules: {
+    'prettier/prettier': ['error'],
     'sort-imports-es6-autofix/sort-imports-es6': [
       2,
       {
