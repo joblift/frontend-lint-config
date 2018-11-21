@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-joblift",
-  "version": "3.2.1",
+  "version": "3.2.2",
   "description": "Joblift eslint config",
   "main": "index.js",
   "repository": "https://github.com/joblift/frontend-lint-config.git",
@@ -11,12 +11,12 @@
     "eslint": "^5.9.0",
     "eslint-config-prettier": ">=3.3.0",
     "eslint-plugin-babel": ">=5.2.1",
-    "eslint-plugin-react": ">=7.11.1",
-    "eslint-plugin-import": ">=2.6.1",
-    "eslint-plugin-sort-imports-es6-autofix": ">=0.3.0",
     "eslint-plugin-flowtype": ">=3.2.0",
+    "eslint-plugin-import": ">=2.6.1",
     "eslint-plugin-jest": ">=22.0.0",
     "eslint-plugin-prettier": ">=3.0.0",
+    "eslint-plugin-react": ">=7.11.1",
+    "eslint-plugin-sort-imports-es6-autofix": ">=0.3.0",
     "prettier": "^1.5.2"
   },
   "scripts": {
