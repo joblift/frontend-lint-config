@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['./base.js', './flowtype.js', './jest.js'],
+  extends: ['./base.js', './flowtype.js', './jest.js']
 };
