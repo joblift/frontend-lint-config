@@ -168,6 +168,7 @@ module.exports = {
     'no-unused-expressions': 'off', // handled by babel
     'no-use-before-define': 'error',
     'no-useless-call': 'error',
+    'no-useless-catch': 'error',
     'no-useless-computed-key': 'error',
     'no-useless-concat': 'error',
     'no-useless-constructor': 'error',
