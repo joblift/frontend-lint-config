@@ -83,8 +83,14 @@ module.exports = {
     'multiline-ternary': 'off',
     'new-cap': 'off', // handled by babel
     'new-parens': 0,
-    'newline-after-var': 'error',
-    'newline-before-return': 'error',
+    'newline-after-var': 'off', // deprecated padding-line-between-statements
+    'newline-before-return': 'off', // deprecated padding-line-between-statements
+    'padding-line-between-statements': [
+      'error',
+      { blankLine: 'always', prev: ['var', 'let', 'const'], next: '*' },
+      { blankLine: 'any', prev: ['var', 'let', 'const'], next: ['var', 'let', 'const'] },
+      { blankLine: 'always', prev: '*', next: 'return' }
+    ],
     'newline-per-chained-call': 'off',
     'no-alert': 'off',
     'no-array-constructor': 'error',
@@ -150,7 +156,7 @@ module.exports = {
     'no-script-url': 'error',
     'no-self-compare': 'error',
     'no-sequences': 'error',
-    'no-shadow': 'error',
+    'no-shadow': 'off',
     'no-shadow-restricted-names': 'error',
     'no-spaced-func': 0,
     'no-sync': 'error',
