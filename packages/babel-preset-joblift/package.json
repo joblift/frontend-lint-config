@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-joblift",
-  "version": "3.0.1",
+  "version": "3.3.1",
   "main": "index.js",
   "repository": "https://github.com/joblift/frontend-lint-config.git",
   "author": "devs@Joblift GmbH",
