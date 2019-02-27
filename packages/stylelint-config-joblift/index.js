@@ -1,7 +1,8 @@
 module.exports = {
-    extends: 'stylelint-config-standard',
-    plugins: ['stylelint-scss'],
+    extends: ['stylelint-config-standard', 'stylelint-config-prettier'],
+    plugins: ['stylelint-scss', 'stylelint-prettier'],
     rules: {
+        'prettier/prettier': true,
         'property-blacklist': ['flex-wrap'],
         'declaration-property-value-blacklist': {
             display: ['grid'],
