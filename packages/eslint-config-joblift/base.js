@@ -1,12 +1,11 @@
 module.exports = {
-  extends: ['eslint:recommended', './babel.js', 'prettier'],
+  extends: ['eslint:recommended', './babel.js', './prettier.js'],
   parser: 'babel-eslint',
   parserOptions: {
     sourceType: 'module'
   },
-  plugins: ['import', 'sort-imports-es6-autofix', 'prettier'],
+  plugins: ['import', 'sort-imports-es6-autofix'],
   rules: {
-    'prettier/prettier': ['error'],
     'sort-imports-es6-autofix/sort-imports-es6': [
       2,
       {
@@ -88,7 +87,11 @@ module.exports = {
     'padding-line-between-statements': [
       'error',
       { blankLine: 'always', prev: ['var', 'let', 'const'], next: '*' },
-      { blankLine: 'any', prev: ['var', 'let', 'const'], next: ['var', 'let', 'const'] },
+      {
+        blankLine: 'any',
+        prev: ['var', 'let', 'const'],
+        next: ['var', 'let', 'const']
+      },
       { blankLine: 'always', prev: '*', next: 'return' }
     ],
     'newline-per-chained-call': 'off',
