@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-joblift",
-  "version": "3.3.2",
+  "version": "3.3.4",
   "description": "Joblift eslint config",
   "main": "index.js",
   "repository": "https://github.com/joblift/frontend-lint-config.git",
