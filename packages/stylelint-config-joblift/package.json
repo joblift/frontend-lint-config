@@ -8,7 +8,7 @@
   "license": "MIT",
   "peerDependencies": {
     "prettier": "^1.16.4",
-    "stylelint": "^9.0.0",
+    "stylelint": "^10.0.0",
     "stylelint-config-prettier": "^5.0.0",
     "stylelint-config-standard": "^18.0.0",
     "stylelint-prettier": "^1.0.6",
