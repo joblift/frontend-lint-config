@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['eslint:recommended', './babel.js', './prettier.js'],
+  extends: ['eslint:recommended', './babel.js'],
   parser: 'babel-eslint',
   parserOptions: {
     sourceType: 'module'
