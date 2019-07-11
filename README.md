@@ -1,5 +1,4 @@
 ## Joblift Frontend Lint Config
-https://everyjob.atlassian.net/wiki/display/DEV/joblift-frontend-lint-config
 
 This is a monorepo managed by [lerna](https://lernajs.io/).
 
