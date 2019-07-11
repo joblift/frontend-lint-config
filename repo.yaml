@@ -1,0 +1,7 @@
+name: frontend-lint-config
+type: tooling
+language: node
+chapter: frontend
+responsibles:
+- Hinrich Riedel
+- Reyna DeLogé
