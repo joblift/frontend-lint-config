@@ -17,5 +17,8 @@
     "@babel/plugin-syntax-dynamic-import": "^7.0.0",
     "@babel/plugin-syntax-import-meta": "^7.0.0"
   },
-  "gitHead": "8949bda5d63448651f0157da77e43a6252254252"
+  "gitHead": "8949bda5d63448651f0157da77e43a6252254252",
+  "dependencies": {
+    "lerna": "^3.15.0"
+  }
 }
