@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-joblift",
-  "version": "3.4.0",
+  "version": "3.4.1",
   "description": "Joblift stylelint config",
   "main": "index.js",
   "repository": "https://github.com/joblift/frontend-lint-config.git",

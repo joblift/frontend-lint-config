@@ -1,6 +1,6 @@
 ## Joblift Frontend Lint Config
 
-This is a monorepo managed by [lerna](https://lernajs.io/).
+This is a monorepo managed by [lerna](https://lerna.js.org/).
 
 Requires npm >= 5.2.0!
 
