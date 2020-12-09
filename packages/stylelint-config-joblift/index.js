@@ -3,10 +3,8 @@ module.exports = {
     plugins: ['stylelint-scss', 'stylelint-prettier'],
     rules: {
         'prettier/prettier': true,
-        'property-disallowed-list': ['flex-wrap'],
-        'declaration-property-value-disallowed-list': {
-            display: ['grid'],
-        },
+        'property-disallowed-list': [],
+        'declaration-property-value-disallowed-list': {},
         indentation: null,
         'function-name-case': null,
         'number-leading-zero': null,
